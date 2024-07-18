@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+     <h2 id="head">My Todo</h2>
+         <div class="nav">
+            <div class="task">
+               <input type="text" id="text" placeholder="Enter your tasks">
+            </div>
+            <button id="addBtn">Add Tasks</button>
+            <button id="clrBtn">clear Tasks</button>
+            <!-- <button id="ascBtn">Ascending</button> -->
+             <!-- <button id="desBtn">Descending</button> -->
+            <!-- <button id="revBtn">Revert</button> -->
+            <select id="sort" name="sort">
+                <option value="asc">Asc</option>
+                <option value="desc">Desc</option>
+                <option value="orgnl">Revert</option>
+            </select>
+        </div>
+        <div class="search">
+            <input type="text" id="text1" placeholder="search........">
+        
+        </div>
+        <ul id="adTask">
+    
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
